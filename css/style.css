@@ -1,0 +1,61 @@
+*{
+    margin: 0px 0px;
+    box-sizing: border-box;
+    
+}
+
+h1{
+    text-align: center;
+    margin: 10px auto;
+    font-family: monospace;
+    font-size: 300%;
+
+}
+.all{
+    margin: 40px auto;
+}
+
+.section{ 
+    font-family: monospace;
+    font-size: 130%;
+    float: left;
+    width: 30%;
+    margin: 0 1.575%;
+    border: 2px solid black;
+    position: relative;
+    background-color: antiquewhite;
+}
+
+.content div{
+    display: inline;
+    font-size: 110%;
+    position:absolute;
+    right: -1px;
+    top: -1px;
+    border: 1px solid black;
+    padding:6px 6px 6px 6px;
+    background-color: grey;
+}
+
+.content p{
+    padding: 40px 10px 15px 15px;
+}
+
+@media (max-width: 992px) and (min-width:768px){
+    .section1, .section2{
+        width: 45%;
+        margin: 0 2.5%;
+    }
+    .section3{
+        width:95%;
+        margin: 30px 2.5%;
+    }
+}
+
+@media (max-width: 768px){
+    .section{
+        float: none;
+        width:95%;
+        margin: 30px 2.5%;
+    }
+}
